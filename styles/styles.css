@@ -22,3 +22,38 @@ main img {
 
 p {padding: 0;}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+main img {
+    float: right;
+    border: 2px solid rgb(0, 0, 0); 
+    background-color: white; 
+    padding: 5px;
+    box-shadow: 3px 3px 8px #000000;
+}
+
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
