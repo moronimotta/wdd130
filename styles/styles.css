@@ -13,6 +13,7 @@ aside {
 
 aside img {
     width: 200px;
+    height: auto;
 }
 
 main img {
@@ -56,4 +57,9 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    text-align: center;
 }
