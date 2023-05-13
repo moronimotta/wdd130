@@ -28,7 +28,6 @@ p {padding: 0;}
     box-sizing: border-box;
 }
 
-/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -94,4 +93,5 @@ nav a {
     color: #000;
     width: auto;
 }
+
 
