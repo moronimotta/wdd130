@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Rafting website contact">
+    <meta name="author" content="Moroni Motta">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | WDD 130</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="icon" type="image/x-icon" href="images/page-icon.ico">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/page-logo.png" alt="Rafting Site Logo" width="200px">
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid">
+        <main>
+            <div class="container">
+                <div class="contact">
+                    <h1>Contact Us</h1>
+                    <h2>Phone Number: </h2>
+                    <p> +55 45 3521-4400</p>
+                    <h2>Address: </h2>
+                    <p>Paper Street 1999</p>
+                    <h2>Email:</h2>
+                    <a href="mailto:yogibearbrazil@gmail.com"><img src="images/email.svg" alt="Email Us" width="25px"></a>
+                </div>
+                <!-- <img src="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-aboutus-update.png"> -->
+                
+                <div class="map">
+                    <h1>Location</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57531.92953753838!2d-54.47326196073619!3d-25.679726724055605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6ea7339e748e7%3A0x1c851fea816c962f!2sCataratas%20do%20Igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1684175793621!5m2!1spt-BR!2sbr"
+                        width="100%" height="250" style="border: 2px solid black;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+
+            <h1>From Our Team</h1>
+            <div class="workers">
+                <img src="images/happy-worker1.jpg" alt="Worker 1">
+                <p>I love working here!</p>
+                <img src="images/happy-worker2.jpg" alt="Worker 2">
+                <p>They pay the best</p>
+                <img src="images/happy-worker3.jpg" alt="Worker 3">
+                <p>This is the only place I can give my 100%</p>
+            </div>
+
+            <h1>Send us a message</h1>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="message">Message:</label><br>
+                <p>What is the purpose of your message?</p>
+                <input type="radio" name="purpose" id="purpose1" value="question" checked>
+                <label for="purpose1">General Inquiry</label><br>
+                <input type="radio" name="purpose" id="purpose2" value="complaint">
+                <label for="purpose2">Reservation Question</label><br>
+                <input type="radio" name="purpose" id="purpose3" value="suggestion">
+                <label for="purpose3">Website Suggestion</label><br>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea><br>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+                <input type="submit" value="Send">
+
+                <footer>
+                    <p>© 2021 Moroni Motta</p>
+                    <nav class="sociallinks">
+                        <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook"></a>
+                        <a href="https://www.twitter.com/"><img src="images/twitter.svg" alt="Twitter"></a>
+                        <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
+                        <a href="https://drive.google.com/file/d/1mnkcaZyFFXd2K7OxqlO_cqJoIPy-IB07/view?usp=sharing">Contact Us Wireframe</a>
+                    </nav>
+                </footer>
+
+
+        </main>
+    </div>
+
+
+
+</body>
+
+</html>
