@@ -190,7 +190,6 @@ section{
 
 .adventure-awaits {
     border: #000000 1px solid;
-    background-color: ccc5b5;
     padding: 5px;
     column-gap: 5px;
     display: grid;
@@ -306,6 +305,16 @@ input[type="submit"]:hover {
     -webkit-text-shadow: 0 5px 5px rgba(0,0,0,0.3);
   }
 
+  .text p {
+    font-size: 15px;
+  }
+  .text h1 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    -moz-text-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    -webkit-text-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  }
   .image-text h1 {
     font-size: 50px;
     color: #fff;
@@ -335,7 +344,7 @@ input[type="submit"]:hover {
   }
 
   .image-container img {
-    filter: brightness(70%);
+      filter: brightness(70%);
     
   }
   

@@ -222,14 +222,12 @@ section{
 
 
 .adventure-awaits {
-    background-color: ccc5b5;
-    column-gap: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
 
-  }
-  
   .adventure-awaits h2 {
     width: 100%;
     text-align: center;
